@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #include "PageContainer.h"
 
 const Item& PageContainer::ByIndex(const size_t& i) const {
@@ -30,9 +28,9 @@ void PageContainer::PrintTable() const {
 void PageContainer::RawLoad(std::istream& file) {
   std::vector<std::string> raw_data;
 
-  if (!file) throw std::runtime_error("file don`t open");
+  if (!file) throw std::runtime_error("file don`t open");             //если не файл,то вывод ошибки
 
-  if (file.peek() == EOF)  throw std::runtime_error("file is empty");
+  if (file.peek() == EOF)  throw std::runtime_error("file is empty"); // peek вытаскивает первый элемент из файла, если первый эелемент файла = EOF(конец файла), то вывод, что файл пустой
 
   Log::GetInstance().WriteDebug("file open");
 

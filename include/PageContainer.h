@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #ifndef TEMPLATE_PAGECONTAINER_H
 #define TEMPLATE_PAGECONTAINER_H
 #include "header.h"
@@ -17,9 +15,9 @@ class PageContainer {
  public:
   void RawLoad(std::istream& file);
 
-  [[nodiscard]] const Item& ByIndex(const size_t& i) const;
+  [[nodiscard]] const Item& ByIndex(const size_t& i) const;     //по индексу находит эелемент
 
-  [[nodiscard]] const Item& ById(const std::string& id) const;
+  [[nodiscard]] const Item& ById(const std::string& id) const;  //по айди находит элемент
 
   [[nodiscard]] size_t GetRawDataSize() const;
 

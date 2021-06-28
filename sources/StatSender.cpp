@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #include "StatSender.h"
 void StatSender::OnLoaded(const std::vector<Item>& new_items) {
   Log::GetInstance().WriteDebug("StatSender::OnDataLoad");

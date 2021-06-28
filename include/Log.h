@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #ifndef TEMPLATE_LOG_H
 #define TEMPLATE_LOG_H
 #include "header.h"

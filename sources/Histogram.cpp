@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #include "Histogram.h"
 int Histogram::GetNumSkip() const {
   return num_skip;

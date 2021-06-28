@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #include "UsedMemory.h"
 
 void UsedMemory::OnDataLoad(const std::vector<Item>& old_items,

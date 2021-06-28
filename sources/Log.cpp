@@ -1,5 +1,3 @@
-// Copyright 2021 MIX-1 <danilonil1@yandex.ru>
-
 #include "Log.h"
 void Log::Write(const std::string_view& message) const {
   *out_ << "[info] " << message << std::endl;
